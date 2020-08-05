@@ -14,7 +14,7 @@ try:
                     for file in ['info1', 'signalinfo', 'emailinfo', 'emailerdat']:
                         
                         try:
-                            exec(f'import emailerCache._{year}.{ga}.{letter}._{num}.{file}')
+                            exec(f'import _{year}.{ga}.{letter}._{num}.{file}')
                         except:
                             pass
 except:
